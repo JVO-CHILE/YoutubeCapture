@@ -32,6 +32,7 @@
             this.txtURL = new System.Windows.Forms.TextBox();
             this.btnDownload = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.txtHtml = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblURL
@@ -48,12 +49,12 @@
             this.txtURL.Location = new System.Drawing.Point(45, 12);
             this.txtURL.Multiline = true;
             this.txtURL.Name = "txtURL";
-            this.txtURL.Size = new System.Drawing.Size(352, 138);
+            this.txtURL.Size = new System.Drawing.Size(660, 41);
             this.txtURL.TabIndex = 1;
             // 
             // btnDownload
             // 
-            this.btnDownload.Location = new System.Drawing.Point(322, 156);
+            this.btnDownload.Location = new System.Drawing.Point(630, 455);
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.Size = new System.Drawing.Size(75, 23);
             this.btnDownload.TabIndex = 2;
@@ -63,7 +64,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(241, 156);
+            this.btnClear.Location = new System.Drawing.Point(549, 455);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 3;
@@ -71,11 +72,20 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // txtHtml
+            // 
+            this.txtHtml.Location = new System.Drawing.Point(45, 72);
+            this.txtHtml.Multiline = true;
+            this.txtHtml.Name = "txtHtml";
+            this.txtHtml.Size = new System.Drawing.Size(660, 377);
+            this.txtHtml.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 188);
+            this.ClientSize = new System.Drawing.Size(717, 490);
+            this.Controls.Add(this.txtHtml);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.txtURL);
@@ -93,6 +103,7 @@
         private System.Windows.Forms.TextBox txtURL;
         private System.Windows.Forms.Button btnDownload;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.TextBox txtHtml;
     }
 }
 

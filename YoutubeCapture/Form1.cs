@@ -28,12 +28,18 @@ namespace YoutubeCapture
             WebClient w = new WebClient();
             var capHTML = w.DownloadString(URL);
 
-            txtURL.Text = String.Empty;
+            txtURL.Clear();
+            txtURL.Enabled = false;
+            txtHtml.Text = capHTML;
+
+            w.DownloadFile(URL, @"d:\File111.mpge");
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            txtURL.Text = String.Empty;
+            txtURL.Clear();
+            txtURL.Enabled = true;
+            txtHtml.Clear();
         }
     }
 }
