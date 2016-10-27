@@ -1,0 +1,9 @@
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\bin\Debug\YoutubeCapture.exe.config
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\bin\Debug\YoutubeCapture.exe
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\bin\Debug\YoutubeCapture.pdb
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\obj\Debug\YoutubeCapture.csprojResolveAssemblyReference.cache
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\obj\Debug\YoutubeCapture.Form1.resources
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\obj\Debug\YoutubeCapture.Properties.Resources.resources
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\obj\Debug\YoutubeCapture.csproj.GenerateResource.Cache
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\obj\Debug\YoutubeCapture.exe
+D:\Proyectos\Personal\YoutubeCapture\YoutubeCapture\obj\Debug\YoutubeCapture.pdb
